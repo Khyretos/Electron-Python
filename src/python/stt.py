@@ -8,10 +8,8 @@ from vosk import Model, KaldiRecognizer, SetLogLevel
 
 q = queue.Queue()
 
-
-# enable the following line if you do not want to see the logging of vosk.
-# SetLogLevel(-1)
-
+# comment out the following line if you want to see the logging of vosk.
+SetLogLevel(-1)
 
 class STT():
     samplerate = None
