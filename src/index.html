@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Electron + Python STT</h1>
+    <div>
+      <select id="microphones"></select>
+      <button id="start-stt">Start STT</button>
+    </div>
+    <div>
+      <span>Partial:</span>
+      <textarea id="partial"></textarea>
+    </div>
+    <div>
+      <span>Result:</span>
+      <textarea id="result"></textarea>
+    </div>
+  </body>
+  <script src="./js/renderer.js"></script>
+</html>
